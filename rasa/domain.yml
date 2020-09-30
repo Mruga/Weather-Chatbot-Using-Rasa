@@ -1,0 +1,43 @@
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- ask_weather
+- ask_weather_location
+- ask_temperature
+- affirm
+- thank
+- deny
+entities:
+- location
+slots:
+  location:
+    type: text
+responses:
+  utter_greet:
+  - text: Hello, What can I do for you?
+  - text: Hello!
+  utter_goodbye:
+  - text: Bye
+  - text: See you soon
+  utter_ask_location:
+  - text: In what location?
+  - text: Which area?
+  - text: Which city specifically?
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_thanks_response:
+  - text: You are welcome!
+  utter_affirm_response:
+  - text: Great! Have a wonderful day.
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+- action_weather
+- action_temp
+- utter_did_that_help
+- utter_thanks_response
+- utter_affirm_response
