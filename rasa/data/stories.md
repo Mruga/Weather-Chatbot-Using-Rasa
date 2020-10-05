@@ -1,6 +1,11 @@
 ## story 1
 * greet
-	- utter_greet
+  - utter_ask_howcanhelp
+* random_text
+  - utter_end
+* greet_query
+  - utter_query_response
+  
 ## story 2
 * goodbye
 	- utter_goodbye
@@ -22,7 +27,11 @@
 
 ## Generated Story 1
 * greet
-    - utter_greet
+  - utter_ask_howcanhelp
+* random_text
+  - utter_end
+* greet_query
+  - utter_query_response
 * ask_weather_location{"location": "stuttgart"}
     - slot{"location": "stuttgart"}
     - action_weather
@@ -37,7 +46,11 @@
 
 ## Generated Story 2
 * greet
-    - utter_greet
+  - utter_ask_howcanhelp
+* random_text
+  - utter_end
+* greet_query
+  - utter_query_response
 * ask_weather
     - utter_ask_location
 * ask_weather_location{"location": "berlin"}
@@ -54,7 +67,11 @@
 
 ## Generated Story 3
 * greet
-    - utter_greet
+  - utter_ask_howcanhelp
+* random_text
+  - utter_end
+* greet_query
+  - utter_query_response
 * ask_temperature{"location": "Oslo"}
     - slot{"location": "Oslo"}
     - action_temp
@@ -69,7 +86,11 @@
 
 ## Generated Story 4
 * greet
-    - utter_greet
+  - utter_ask_howcanhelp
+* random_text
+  - utter_end
+* greet_query
+  - utter_query_response
 * ask_weather
     - utter_ask_location
 * ask_weather_location{"location": "cologne"}
@@ -86,7 +107,11 @@
 
 ## Generated Story 5
 * greet
-    - utter_greet
+  - utter_ask_howcanhelp
+* random_text
+  - utter_end
+* greet_query
+  - utter_query_response
 * ask_weather
     - utter_ask_location
 * ask_weather_location{"location": "Kiel"}
@@ -103,7 +128,11 @@
 
 ## Generated Story 6
 * greet
-    - utter_greet
+  - utter_ask_howcanhelp
+* random_text
+  - utter_end
+* greet_query
+  - utter_query_response
 * ask_weather_location{"location": "Jamaica"}
     - slot{"location": "Jamaica"}
     - action_weather
@@ -118,7 +147,11 @@
 
 ## Generated Story 7
 * greet
-    - utter_greet
+  - utter_ask_howcanhelp
+* random_text
+  - utter_end
+* greet_query
+  - utter_query_response
 * ask_weather
     - utter_ask_location
 * ask_weather_location{"location": "dhaka"}
@@ -140,7 +173,11 @@
 
 ## Generated Story 8
 * greet
-    - utter_greet
+  - utter_ask_howcanhelp
+* random_text
+  - utter_end
+* greet_query
+  - utter_query_response
 * ask_temperature{"location": "Frankfurt"}
     - slot{"location": "Frankfurt"}
     - action_temp
@@ -162,7 +199,11 @@
 
 ## Generated Story 9
 * greet
-    - utter_greet
+  - utter_ask_howcanhelp
+* random_text
+  - utter_end
+* greet_query
+  - utter_query_response
 * ask_weather
     - utter_ask_location
 * ask_weather_location{"location": "hongkong"}

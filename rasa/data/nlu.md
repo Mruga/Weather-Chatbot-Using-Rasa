@@ -6,6 +6,35 @@
 - good evening
 - hey there
 
+## intent:greet_query
+- Could you help me with a query?
+- Can you do me a favour?
+- I have a query
+- I have an issue
+- Need some help
+- I have some problem
+- I am running with an issue
+- Can you resolve my problem?
+- I am facing issue currently
+- I am stuck
+- I have some difficulty
+- I have some trouble
+- Something is worrying me
+- I am in a mess
+- Are you sure you want to help me?
+
+## intent:random_text
+- are you alive?
+- are you dead?
+- bot is nonsense
+- you are stupid
+- you are robo
+- you are betrayin 
+- You are wrong
+- You are Monkey
+- You are donkey
+- you are beautiful
+
 ## intent:ask_weather_location
 - How is the weather today in [Berlin](location)?
 - what's going on in [Berlin](location) today?
@@ -67,6 +96,9 @@
 - that sounds good
 - correct
 
+## intent:thank
+- thanks
+- thank you
 
 
 

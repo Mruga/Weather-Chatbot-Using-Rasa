@@ -10,6 +10,8 @@ intents:
 - affirm
 - thank
 - deny
+- greet_query
+- random_text
 entities:
 - location
 slots:
@@ -17,8 +19,15 @@ slots:
     type: text
 responses:
   utter_greet:
-  - text: Hello, What can I do for you?
-  - text: Hello!
+  - text: "Hello, What can I do for you?"
+  - text: "Hello!"
+  utter_ask_howcanhelp:
+  - text: "How can I help you?"
+  utter_end:
+  - text: "I do not understand your query. Please contact Philips Help Desk - 0198298278728 or philips@support.com"
+  utter_query_response:
+  - text: "Yeah Sure. Let me know how can I help you."
+  - text: "We are there to help you."
   utter_goodbye:
   - text: Bye
   - text: See you soon
